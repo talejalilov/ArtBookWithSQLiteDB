@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="401dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/gg" />
+
+    <EditText
+        android:id="@+id/artistName"
+        android:layout_margin="40dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:maxLines="10"
+
+      />
+
+    <EditText
+        android:id="@+id/artName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:maxLines="10"
+       />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="119dp"
+        android:layout_height="52dp"
+        android:text="save"
+        android:onClick="save"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+      />
+</LinearLayout>
